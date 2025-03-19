@@ -46,10 +46,10 @@ p.texto-principal {
 
 section.projetos {
     display: flex;
-    align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     width: 100%;
     height: 300px;
+    border-bottom: 1px solid black;
 }
 
 div.projects {
@@ -58,8 +58,83 @@ div.projects {
     flex-direction: column;
     border-right: 1px solid black;
     height: 100%;
+    width: 270px;
+    text-indent: 25px;
 }
 
+div.projects ul {
+    font-size: 20px;
+    align-items: center;
+}
+
+div.projects ul li {
+    display: flex;
+    border-bottom: 1px solid black;
+    margin-bottom: 25px;
+    margin-top: 20px;
+    align-items: center;
+    color: black;
+}
+
+div.projects ul li a {
+    color: black;
+}
+
+div.exp {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid black;
+    height: 50%;
+    width: 1340px;
+}
+
+div.exp h2 {
+    margin-bottom: 10px;
+    margin-top: 25px;
+}
+
+div.exp h3 {
+    margin-bottom: 10px;
+}
+
+div.exp p {
+    margin-bottom: 10px;
+}
+
+div.source {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid black;
+    height: 50%;
+}
+
+div.source h2 {
+    margin-bottom: 10px;
+    margin-top: 25px;
+}
+
+div.source h3 {
+    margin-bottom: 10px;
+}
+
+div.source p {
+    margin-bottom: 10px;
+}
+
+div.edu {
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    border-right: 1px solid black;
+    height: 100%;
+    width: 270px;
+}
+
+div.edu p {
+    margin-bottom: 8px;
+}
 
 aside {
     display: flex;
