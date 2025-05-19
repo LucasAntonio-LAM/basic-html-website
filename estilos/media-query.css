@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+/* Todas as demais mídias */
+
+/* Typical Device Breakpoints 
+Pequenas telas: 320px ate 480px
+Celular: 320px ate 768px
+Tablet: 601 ate 1024px
+Desktop: 1025px ate 1440px
+Grandes Telas: Acima de 1440px
+*/
+
+@media screen and (min-width: 1024px) { /* GRANDES TELAS */
+    .container-menu {
+        max-width: 1000px;
+        margin: 0 auto;
+        border-right: 2px solid black;
+        border-left: 2px solid black;
+    }
+
+    .titulo {
+        max-width: 1000px;
+        margin: 0 auto;
+        border-right: 2px solid black;
+        border-left: 2px solid black;
+    }
+
+    .projects {
+        max-width: 1000px;
+        margin: 0 auto;
+        border-right: 2px solid black;
+        border-left: 2px solid black;
+    }
+
+    .projects1 {
+        width: 1000px;
+    }
+
+    .projects1 p {
+        font-size: 1.3em;
+    }
+
+    .projects1 ul li {
+        border-bottom: 1px solid black;
+    }
+
+    .projects1 ul li a {
+        color: black;
+        text-decoration: none;
+        font-size: 1.3em;
+    }
+
+    .projects2 p, a {
+        font-size: 1.3em;
+    }
+
+    .projects3 {
+        width: 1000px;
+    }
+
+    .projects3 p {
+        font-size: 1.3em;
+    }
+
+    .projects3 ul li {
+        border-bottom: 1px solid black;
+    }
+
+    .projects3 ul li {
+        color: black;
+        text-decoration: none;
+        font-size: 1.3em;
+    }
+    
+
+    .container-teachers {
+        width: 1000px;
+        margin: 0 auto;
+        border-right: 2px solid black;
+        border-left: 2px solid black;
+        align-items: center;
+    }
+
+    .titulo-reviews {
+        width: 1000px;
+        margin: 0 auto;
+        border-right: 2px solid black;
+        border-left: 2px solid black;
+    }
+}

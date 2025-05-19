@@ -1,0 +1,190 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+}
+
+/* MENU */
+
+.container-menu {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-around;
+    height: 100px;
+    border-bottom: 2px solid black;
+}
+
+img#logo {
+    width: 50px;
+    height: 50px;
+}
+
+.logo {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.logo h1 {
+    font-size: 1.7em;
+    margin-left: 8px;
+    cursor: pointer;
+}
+
+.menu ul {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    gap: 25px;
+}
+
+.menu li {
+    font-size: 1.1em;
+    align-items: center;
+}
+
+.menu li a {
+    color: black;
+}
+
+.menu li a:hover {
+    font-size: 1.2em;
+    transition: all 0.5s;
+}
+
+/* TITULO PRINCIPAL */
+
+.titulo {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    border-bottom: 2px solid black;
+}
+
+.titulo h1 {
+    font-size: 1.9em;
+}
+
+.titulo p {
+    font-size: 1.1em;
+    text-align: center;
+}
+
+/* PROJETOS */
+
+.projects {
+    display: flex;
+    font-size: 0.9em;
+    flex-flow: column nowrap;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    border-bottom: 2px solid black;
+    padding-bottom: 10px;
+}
+
+.projects1 {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    width: 1000px;
+}
+
+.projects1 ul li {
+    border-bottom: 1px solid black;
+}
+
+.projects1 ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+.projects1 ul li a:hover {
+    text-decoration: underline;
+}
+
+.projects2 {
+    width: 1000px;
+}
+
+.projects2 p {
+    border-bottom: 1px solid black;
+}
+
+.projects2 a {
+    display: inline-block;
+    border-bottom: 1px solid black;
+    color: black;
+}
+
+.projects2 a:hover {
+    text-decoration: underline;
+}
+
+.projects2 h3 {
+    border-bottom: 1px solid black;
+}
+
+.projects3 {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    width: 1000px;
+}
+
+.projects3 ul li {
+    border-bottom: 1px solid black;
+}
+
+.projects3 ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+.projects3 ul li a:hover {
+    text-decoration: underline;
+}
+
+/* REVIEWS */
+
+.container-teachers {
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo-reviews {
+    display: flex;
+    justify-content: center;
+}
+
+.teachers {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+/* FOOTER */
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background: black;
+    color: white;
+}
+
